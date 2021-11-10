@@ -1,0 +1,11 @@
+div.flex_container{
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+div.flex_container > p{
+    background-color: white;
+    color:black;
+    margin: 20px;
+
+}

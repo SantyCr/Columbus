@@ -1,0 +1,32 @@
+body{
+    
+}
+  
+
+.nav-vertical{
+    padding: 20px 20px;
+    background: #027383;
+}
+
+.nav-horizontal{
+    padding: 10px;
+    background: #454851;
+    width: 80px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    list-style: center;
+
+}
+
+.icon_menu{
+    color: white;
+    position: absolute;
+    text-align: center;
+    
+}
+
+
+
+

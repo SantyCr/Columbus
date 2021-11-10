@@ -1,3 +1,8 @@
+body{
+  margin-left: 100px;
+  background: #EDEDED;
+}
+
 .App {
   text-align: center;
 }
