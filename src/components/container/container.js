@@ -1,19 +1,16 @@
 import React, { Component } from 'react'
-import "./FlexBox.css";
+import "./container.css";
 
 export default class flexbox extends Component {
     render() {
         return (
             <div>
                 <div >
+                <br/>
                     <div className = "flex_container">
-                        <p>dada</p>
-                        <p>dada</p>
-                        <p>dada</p>
+                        <p styles = "flex-grow: 1">dada</p>
+                        <p styles = "flex-grow: 1">dada</p>
                     </div>
-                    <div>2</div>
-                    <div>3</div>
-                    <div>4</div>
                 </div>
             </div>
         )

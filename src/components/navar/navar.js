@@ -10,9 +10,9 @@ class NavarVertical extends Component{
             <div>
                 <nav className = "nav-vertical">
                     
-                    <ol>
-                        <li>dasd</li>
-                    </ol>
+                    
+                        <a href = "#">Columbus</a>
+                    
                 </nav>
             </div>
 
