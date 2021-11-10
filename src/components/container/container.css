@@ -1,3 +1,10 @@
+
+.div{
+
+    background: white;
+    margin-top: 20px;
+
+}
 div.flex_container{
     display: flex;
     background-color: #EDEDED;
