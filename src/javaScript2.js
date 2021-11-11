@@ -1,17 +1,26 @@
 function getNumber(x, y) {
     if (x <= 100000 && y <= 100000){
-      var a = (y-1)+x;
-      var b;
-      
-      if (a % 2 == 0){
-        b = (x/2)*a;
-        console.log(b+"a"+a)
-      }else{
-      	b = (((a-1)/2)+1)+(a/2)*(a+1);
-        console.log(b+"b"+a)
-      }
+        var a = (x-1)+x;
+        var b;
+        
+        if( x == 1 || x == 2){
+            if (x == 1) {
+                
+            } else {
+                
+            }
 
-      return b;
-    }    
+        }else if(a % 2 == 0)
+        {
+          b = (a/2)*(a+1)*2;
+        }
+        else {
+            b = (((a-1)/2)*(a+1)+1)*2;
+        }
+        
+        return b-((x-1)*2);
+    }
 }
-console.log(getNumber(6,2))
+
+console.log(getNumber(1,2
+    ))
